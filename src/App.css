@@ -1,0 +1,237 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+ul li{
+  display: inline-block;
+  font-size: 40px;
+  margin-left: 90px;
+}
+.linc{
+  text-decoration: none;
+  color: aqua;
+}
+.linc:hover{
+  background-color: azure;
+  color: red;
+}
+
+.fieldinput{
+ margin: 3px 40%;
+ border-radius: 5px;
+}
+.outer{
+  background-color: aqua;
+  width: 20%;
+  margin-top: 5%;
+  padding-right: 130px;
+  text-align: center;
+  align-items: center;
+  margin-left: 35%;
+  border-radius: 6px;
+ 
+  
+}
+
+.but{
+  text-align: center;
+  margin: 6px 70%;
+  margin-top: -5px;
+  margin-bottom: 6px;
+  width: 50%;
+  background-color: aqua;
+  border-color: aqua;
+  border-right-color: aqua;
+ 
+}
+.apps{
+  background-color: chocolate;
+  height: 250vh;
+}
+.header{
+  background-color: rgb(97, 127, 128);
+}
+.buttonlist{
+ display: inline-block;
+}
+.outer2{
+  margin:3% 40%;
+  background-color: aqua;
+  
+}
+.li{
+  list-style: none;
+  margin-left: 5%;
+  color: rgb(201, 51, 51);
+  
+
+}
+.batn{
+  background-color: red;
+}
+.inputfull{
+  width: 100%;
+ text-align: right;
+ background-color: aqua;
+ height: 40px;
+}
+.operator{
+  width: 25%;
+  padding-top: 12%;
+  background-color: rgb(255, 166, 0);
+}
+.block{
+  display: inline-block;
+  margin: 5px;
+}
+.head{
+  font-family: italic;
+  margin-right: 3%;
+  color: rgb(233, 85, 27);
+}
+.lii{
+  list-style: none;
+  border: 2px solid black;
+  
+
+}
+.Add{
+  
+  margin-left: 30px;
+  margin-top: 30px;
+}
+.butt{
+  width: 90px;
+  margin-bottom: 25px;
+ margin-left: 90px;
+}
+.hovereffect{
+  border-radius: 20px;
+  color:white;
+background-color:red;
+}
+.hovereffect:hover{
+  color:black;
+  background-color:rgb(175, 195, 217);
+border-radius: 20px;
+}
+
+.decorate{
+  text-decoration: none;
+  color: #c21218;
+  font-size: 18px;
+  border-radius: 8px;
+  background-color: aqua;
+}
+.decorate:hover{
+  background-color: darkkhaki;
+  color: rgb(43, 20, 20);
+}
+
+.searc{
+  border-radius: 5px;
+  margin-left: 40%;
+  width: 30%;
+  padding-left: 3%;
+}
+.harry{
+font-style: oblique;
+color: rgb(18, 14, 14);
+background-color: #c21218;
+}
+.hiding{
+  
+ border-color: rgb(24, 23, 23);
+ 
+ box-shadow: white;
+ 
+  text-align: center;
+  align-items: center;
+  align-content: center;
+  box-shadow: #61dafb;
+  width: 80px;
+  height: 40px;
+  margin-left: -15%;
+  margin-top: -10%;
+  margin-bottom: -10%;
+  
+}
+.profilecss{
+  text-align: center;
+  background-color: #61dafb;
+  width: fit-content;
+  align-items: center;
+  height: fit-content;
+  margin-left: 40%;
+  margin-top: 5%;
+  border-color: #c21218;
+  box-shadow: 10px 10px 10px 10px black;
+  border-radius: 20px;
+  
+}
+
+.profilecss h2{
+  padding-top: 2%;
+}
+.h44{
+  padding-top: 2%;
+  padding-bottom: 40px;
+}
+.imgtag{
+  background-color: aqua;
+  height: 50%;
+  width: 50%;
+  margin-top:5%;
+  border-radius: 50px;
+}
+
+.imgsecond{
+  width: 50px;
+  height: 50px;
+  
+  border-radius: 5px;
+
+  
+}
+
+
+.distance{
+  padding-left: 300px;
+}
+.distance:hover{
+  color: rgb(53, 129, 195);
+}
